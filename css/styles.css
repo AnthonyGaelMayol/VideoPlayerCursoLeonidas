@@ -1,13 +1,20 @@
 @import './buttons.css';
 
 body {
-    background-color: #26B4BC;
+    background-color: #1B4F72;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .wrapper {
     max-inline-size: 900px;
     margin: auto;
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
+  text-align: center;
+}
+
+.wrapper:hover {
+    box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.2), 0 12px 40px 0 rgba(255, 255, 255, 0.19);
+  text-align: center;
 }
 
 .player {
